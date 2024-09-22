@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        /* display : block, inline, inline-block, flex, grid 
+            [block] : 한줄 모두 차지 줄바꿈 (div, p, h1~6)
+            [inline]  : 내 크기 만큼만 차지, 줄바꿈 없음(a,img, span
+            [inline-block] : 내 크기 만큼만 차지,줄바꿈 없음, 크기 변경가능
+            [flex] : 가로정렬/세로정렬 편하게
+            [grid] : 표 형태로 정렬 편하게
+            */
+        display: flex;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div style="background-color: red; width: 50%">1</div>
+      <div style="background-color: blue; width: 50%">2</div>
+    </div>
+    <div style="background-color: green">3</div>
+  </body>
+</html>
